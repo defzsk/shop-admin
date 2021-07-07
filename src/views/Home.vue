@@ -1,15 +1,34 @@
 <template>
-  <div class="home">
-    home
-    <el-button type="primary">主要按钮</el-button>
+  <div class="">
+    home页
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Home',
-  components: {
-  }
+  name: 'home',
+  components: {},
+  props: {},
+  data () {
+    return {
+
+    }
+  },
+
+  computed: {},
+
+  created () {},
+
+  mounted () {},
+
+  methods: {},
+
+  watch: {}
+
 }
+
 </script>
+<style scoped lang="less">
+
+</style>
